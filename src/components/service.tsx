@@ -6,6 +6,8 @@ import Image from "next/image"
 import { motion, useInView } from "framer-motion"
 import { ArrowRight, CheckCircle2, ChevronRight, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion"
 
 
 export default function ServicesPage() {
