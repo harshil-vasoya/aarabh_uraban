@@ -89,7 +89,7 @@ export default function ServicesPage() {
     {
       id: "interior",
       title: "Interior Designing",
-      icon: "/img/ic_3.png",
+      icon: "/img/Temp_c3.png",
       image: "/img/Interior_1.jpg",
       description:
         "Our interior design services transform spaces into functional, beautiful environments that reflect your personality and meet your needs. We combine aesthetics with practicality to create interiors that inspire and delight.",

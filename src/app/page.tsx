@@ -76,7 +76,7 @@ export default function Home() {
       description: "Creating urban environments that inspire community, connectivity, and a better quality of life.",
     },
     {
-      icon: "/img/ic_3.png",
+      icon: "/img/Temp_c3.png",
       title: "Interior Designing",
       description:
         "Curating stunning interiors that balance aesthetics, comfort, and practicality with meticulous attention to detail.",
