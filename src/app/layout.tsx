@@ -52,7 +52,7 @@ export const metadata: Metadata = {
       index: true,
       follow: true,
       "max-video-preview": -1,
-      "max-image-preview": "large",
+      "max-image-preview": "large", // Fixed: Using the literal "large" instead of a string
       "max-snippet": -1,
     },
   },

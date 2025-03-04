@@ -11,7 +11,6 @@ export const metadata: Metadata = generateMetadata({
   imagePath: "/img/about-og.jpg",
 })
 
-
 export default function About() {
  return(<AboutPage/>)
 }
