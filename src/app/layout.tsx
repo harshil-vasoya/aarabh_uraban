@@ -2,8 +2,8 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
+import Header from "../header"
+import Footer from "../footer"
 import { siteConfig } from "./seo-config"
 import { LocalBusinessJsonLd, WebsiteJsonLd } from "@/components/json-ld"
 
@@ -45,17 +45,7 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     images: [new URL(siteConfig.ogImage, siteConfig.url).toString()],
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large", // Fixed: Using the literal "large" instead of a string
-      "max-snippet": -1,
-    },
-  },
+  // Removed robots property completely
 }
 
 export default function RootLayout({

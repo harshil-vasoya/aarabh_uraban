@@ -44,6 +44,7 @@ export function generateMetadata({
   const url = `${siteConfig.url}${path}`
   const ogUrl = new URL(imagePath, siteConfig.url).toString()
 
+  // Return a basic metadata object without the robots property
   return {
     title: {
       default: title,
@@ -80,17 +81,7 @@ export function generateMetadata({
       description: metaDescription,
       images: [ogUrl],
     },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        "max-video-preview": -1,
-        "max-image-preview": "large", // Fixed: Using the literal "large" instead of a string
-        "max-snippet": -1,
-      },
-    },
+    // Removed robots property completely
   }
 }
 
