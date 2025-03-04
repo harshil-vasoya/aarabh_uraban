@@ -13,24 +13,24 @@ export default function TeamPage() {
 
   const teamMembers = [
     {
-      name: "John Doe",
+      name: "Ekta Rabadiya",
       position: "Architect",
       image: "/img/img-7.png",
-      email: "john@aarambhurban.com",
+      email: "aarambh.urbans@gmail.com",
       phone:"+91 9909010621"
     },
     {
-      name: "Jane Smith",
+      name: "Pavan Patel",
       position: "Urban Planner",
       image: "/img/img-8.jpg",
-      email: "jane@aarambhurban.com",
+      email: "patel.pavan9624@gmail.com",
       phone:"+91 9624001504"
     },
     {
-      name: "Michael Johnson",
+      name: "Mily Patel",
       position: "Urban Planner",
       image: "/img/img-9.png",
-      email: "michael@aarambhurban.com",
+      email: "milyrpatel@gmail.com",
       phone:"+91 9099439689"
     }
   ]

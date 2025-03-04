@@ -66,7 +66,7 @@ export default function AboutPage() {
   }
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen w-full">
         {/* About Hero Section - Updated to match portfolio style */}
         <section className="relative pt-32 pb-20 bg-gradient-to-b from-gray-900 to-gray-800 text-white overflow-hidden">
           {/* Background Elements */}
@@ -144,9 +144,9 @@ export default function AboutPage() {
         </section>
 
         {/* About Content Section */}
-        <section id="our-story" className="py-20">
-          <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <section id="our-story" className="py-20 w-full">
+          <div className="container mx-auto px-4 justify-between align-middle items-start">
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-12 ">
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -172,13 +172,13 @@ export default function AboutPage() {
                 </p>
               </motion.div>
               <motion.div
-                className="flex justify-center h-full"
+                className="flex justify-end h-full "
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
               >
-                <div className="relative w-full h-full rounded-xl overflow-hidden">
+                <div className="flex justify-end relative w-full h-full rounded-xl overflow-hidden">
                   <Image
                     src="/img/logo_svg.svg"
                     alt="Aarambh Urban Office"
